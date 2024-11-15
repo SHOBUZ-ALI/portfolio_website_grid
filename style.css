@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin:20px 20px ;
+    line-height: normal;
+    
+}
+header{
+    background-image: url(/cover.jpg);
+    
+    
+}
+.intro{
+    margin-left: 60px;
+    color: brown;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    color: brown;
+    padding-top: 20px;
+
+}
+.image{
+    text-align: center;
+}
+.quality ul{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    gap: 10px;
+    font-size: larger;
+    font-weight: 900;
+    list-style: none;
+    text-decoration: none;
+}
+.link ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    background-color: aqua;
+    color: brown;text-decoration-style: none;
+    margin-bottom: 50px;
+
+}
+.div1{  background-color: burlywood; grid-column: 1/-1;  }
+.div2{  background-color: blanchedalmond;color: blue;    }
+.div3{background-color: aqua; color: blue;}
+.div4{  background-color: aqua; color:blue; }
+.div5{  background-color: aquamarine; grid-row: 2/4;grid-column: 4/5;   }
+.div6{  background-color: aliceblue; grid-column: 1/4;  }
+.div7{  background-color: antiquewhite;grid-column: 1/-1;  }
+
+.grid{
+    width:100%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid brown;
+    display: grid;
+    grid-template-rows:100px 125px auto 80px ;
+    grid-template-columns: repeat(3, 1fr) 100px;
+    row-gap: 15px;
+    column-gap: 5px;
+
+
+
+}
+.div1 ul li{
+    color:navy;
+}
+.div1 ul .special{
+    color: brown;
+    font-size: larger;
+    font-weight: 900;
+}
+em{
+    font-weight: 900;
+    color: brown;
+}
+.div6{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    gap: 3rem;
+}
+ 
+    .div1 ul .div3 ul{
+        list-style: none;
+    }
+
+
